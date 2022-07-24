@@ -51,10 +51,15 @@
     border: 1px solid var(--primary-color);
     border-radius: 30px;
     width: fit-content;
-    background: var(--primary-color);
-    color: var(--white);
     cursor: pointer;
 }
+
+.google__button:hover, .facebook__button:hover{
+    background: var(--blue-bg);
+    border: 1px solid var(--blue-bg);
+    color: var(--white);
+}
+
 
 .form{
     width: 100%;

@@ -247,6 +247,10 @@
     transition: all 250ms ease-in-out;
     cursor: pointer;
   }
+
+  .btn__primaryTwo:hover{
+    background: var(--blue-bg);
+  }
   
   .btn__primary:hover {
     background: none;
