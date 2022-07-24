@@ -30,3 +30,20 @@
 .register__bottom p a{
     color: var(--secondary-color)
 }
+
+
+@media screen and (max-width: 810px){
+    .register__button{
+        grid-template-columns: 1fr;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .register__title{
+        width: 100%;
+    }
+    .register__title h1 {
+        margin-bottom: 20px;
+
+    }
+}

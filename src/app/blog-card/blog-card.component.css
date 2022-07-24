@@ -76,3 +76,20 @@
     padding: 0px 15px;
     margin-left: auto;
   }
+
+  @media screen and (max-width: 768px) {
+    .blog__card{
+        padding: 25px;
+        height: 450px;
+    }
+    .card__bottom {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        padding-top: 20px;
+      }
+      .card__img img{
+        width:50%;
+      }
+}
+    

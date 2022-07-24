@@ -30,3 +30,11 @@
     font-family: 'neue-bold';
     color: var(--global-color);
 }
+
+@media screen and (max-width: 768px){
+    .hero__two{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}

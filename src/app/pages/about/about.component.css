@@ -43,3 +43,12 @@
     font-size: 18px;
     color: var(--primary-color);
 }
+
+
+@media screen and (max-width: 810px){
+  .about__card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+}

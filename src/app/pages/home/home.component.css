@@ -68,7 +68,7 @@
 .advert__title{
     width: 30%;
     color: var(--white);
-    font-size: 50px;
+    font-size: clamp(30px, 2.5vw, 50px);
     font-family: "neue-bold";
     margin-bottom: 40px;
 }
@@ -83,4 +83,33 @@
     border: none;
     width: 139px;
     height: 42px;
+}
+
+@media screen and (max-width: 810px){
+    .home__main {
+        margin-top: 140px;
+      }
+
+    .home__hero{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .hero__left, .hero__right{
+        width: 100%;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 25%;
+        left: 36%;
+        height: 34px;
+      }
+
+    .advert{
+        padding: 30px;
+    }
+    .advert__title {
+        width: 100%;
+      }
 }

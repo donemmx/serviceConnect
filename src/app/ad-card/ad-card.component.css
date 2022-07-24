@@ -63,3 +63,17 @@
 .ad__card:hover{
     border: 1px solid var(--secondary-color);
 }
+
+@media screen and (max-width: 768px) {
+    .ad__card{
+        padding: 25px;
+    }
+    .card__bottom {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        padding-top: 20px;
+      }
+   
+}
+    
