@@ -1,1 +1,25 @@
-<p>header works!</p>
+<div class="header__main">
+    <div class="header__container">
+        <div class="header__left" routerLink="/home">
+            <img src="../../assets/logo.png" alt="">
+        </div>
+        <div class="header__mid">
+            <div class="links">
+                <a routerLink="/home" routerLinkActive="active"> Home</a>
+                <a routerLink="/search" routerLinkActive="active" > Ads</a>
+                <a routerLink="/job" routerLinkActive="active">Job</a>
+                <a routerLink="/about" routerLinkActive="active">About</a>
+                <a routerLink="/blog" routerLinkActive="active">Blog</a>
+            </div>
+        </div>
+        <div class="header__right">
+            <div class="buttons">
+                <a routerLink="/login">Login</a>
+                <button class="btn__primaryTwo" routerLink="/register-one">Sign up</button>
+            </div>
+        </div>
+        <div class="header__mobile">
+            <i class="pi pi-bars"></i>
+        </div>
+    </div>
+</div>

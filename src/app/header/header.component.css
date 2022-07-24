@@ -1,0 +1,93 @@
+.header__main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 80px;
+  background: var(--white);
+  transition: all 250ms ease-in-out;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  gap: 80px;
+}
+
+.links {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+.links a,
+.buttons a {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.links a:hover,
+.buttons a:hover {
+  color: var(--primary-color);
+}
+
+.header__right {
+  margin-left: auto;
+}
+.header__left {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__mobile {
+  display: none;
+}
+
+.active {
+  color: var(--primary-color);
+  position: relative;
+  transition: all 250ms ease-in-out;
+}
+
+.active::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: var(--primary-color);
+    top: 25px;
+    left: 0;
+}
+
+@media screen and (max-width: 810px) {
+  .header__container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header__right,
+  .header__mid {
+    display: none;
+  }
+  .header__mobile {
+    display: block;
+  }
+  .header__mobile i {
+    font-size: 24px;
+    cursor: pointer;
+  }
+}

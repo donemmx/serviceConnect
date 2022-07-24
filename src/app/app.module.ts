@@ -24,6 +24,13 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardOneComponent } from './card-one/card-one.component';
 import { CardTwoComponent } from './card-two/card-two.component';
+import { AboutComponent } from './pages/about/about.component';
+import {DropdownModule} from 'primeng/dropdown';
+import { SearchCardComponent } from './search-card/search-card.component';
+import { AdCardComponent } from './ad-card/ad-card.component';
+import { JobCardComponent } from './job-card/job-card.component';
+import { BlogCardComponent } from './blog-card/blog-card.component';
+import { RegisterCardComponent } from './register-card/register-card.component'
 
 @NgModule({
   declarations: [
@@ -48,10 +55,17 @@ import { CardTwoComponent } from './card-two/card-two.component';
     HeaderComponent,
     FooterComponent,
     CardOneComponent,
-    CardTwoComponent
+    CardTwoComponent,
+    AboutComponent,
+    SearchCardComponent,
+    AdCardComponent,
+    JobCardComponent,
+    BlogCardComponent,
+    RegisterCardComponent
   ],
   imports: [
     BrowserModule,
+    DropdownModule,
     AppRoutingModule
   ],
   providers: [],
