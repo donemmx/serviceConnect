@@ -63,7 +63,7 @@
   }
   .blog__card:hover{
       border: 1px solid var(--blue-500);
-      background: linear-gradient(102.59deg, #a1a6fd -35.92%, #2334ee 103.39%);
+      background: var(--blue-bg);
   }
 
   .blog__card:hover .title, .blog__card:hover .card__detailTop, .blog__card:hover .price, .blog__card:hover .localtion, .blog__card:hover .localtion i{

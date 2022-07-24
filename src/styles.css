@@ -29,6 +29,7 @@
     --primary-color: #1621F2 !important;
     --secondary-color: #F20505 !important;
     --tertiary-color: #7C7C7C !important;
+      --blue-bg: linear-gradient(102.59deg, #a1a6fd -35.92%, #2334ee 103.39%);
     --hover-color: invert(39%) sepia(89%) saturate(6315%) hue-rotate(350deg)
       brightness(118%) contrast(151%) !important;
     --input: clamp(0.725rem, 5vw, 1rem);

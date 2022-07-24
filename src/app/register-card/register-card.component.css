@@ -31,9 +31,8 @@
 }
 
 .register__card:hover {
-  border: 2px solid var(--primary-color);
   box-shadow: 0px 17px 40px rgba(22, 33, 242, 0.07);
-  background: var(--primary-color);
+  background: var(--blue-bg);
 }
 
 .register__card:hover::before {
