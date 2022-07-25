@@ -46,4 +46,13 @@
         margin-bottom: 20px;
 
     }
+
+      .register__content {
+        margin-top: 14vh;
+        text-align: center;
+      }
+      
+    .head__one {
+        font-size: 28px;
+      }
 }

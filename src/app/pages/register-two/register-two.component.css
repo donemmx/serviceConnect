@@ -76,3 +76,34 @@
 .checkbox p{
     text-align: left;
 }
+
+@media screen and (max-width: 810px){
+    .register__button{
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .register__content {
+        margin-top: 14vh;
+        text-align: center;
+      }
+    .register__title{
+        width: 100%;
+    }
+    .register__title h1 {
+        margin-bottom: 20px;
+
+    }
+
+    .register__bottom {
+        width: 100%;
+      }
+
+      .head__one {
+        font-size: 28px;
+      }
+}
