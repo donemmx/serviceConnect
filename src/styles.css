@@ -464,6 +464,19 @@
         grid-gap: 20px;
     }
       
+}
+
+@media screen and (max-width: 480px){
+    .container{
+        width: 90%;
+    }
+
+    .recent__ads{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+      
   .head__one {
     font-family: "neue-regular";
     font-size: 38px;

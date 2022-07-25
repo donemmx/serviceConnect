@@ -34,6 +34,21 @@
 
 @media screen and (max-width: 810px){
     .register__button{
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .register__title{
+        width: 100%;
+    }
+  
+
+  
+}
+
+@media screen and (max-width: 480px){
+    .register__button{
         grid-template-columns: 1fr;
         padding: 10px;
         width: 100%;
@@ -51,8 +66,8 @@
         margin-top: 14vh;
         text-align: center;
       }
-      
+
     .head__one {
         font-size: 28px;
-      }
+      } 
 }

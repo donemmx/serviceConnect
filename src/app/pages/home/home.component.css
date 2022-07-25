@@ -101,6 +101,36 @@
 
     .arrow {
         position: absolute;
+        top: 38%;
+        left: 30%;
+        height: 34px;
+      }
+
+    .advert{
+        padding: 30px;
+        height: 100%;
+    }
+ 
+}
+
+
+
+@media screen and (max-width: 480px){
+    .home__main {
+        margin-top: 140px;
+      }
+
+    .home__hero{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .hero__left, .hero__right{
+        width: 100%;
+    }
+
+    .arrow {
+        position: absolute;
         top: 25%;
         left: 36%;
         height: 34px;
@@ -113,3 +143,6 @@
         width: 100%;
       }
 }
+
+
+   
