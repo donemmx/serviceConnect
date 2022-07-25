@@ -48,14 +48,17 @@
       font-size: 12px;
   }
   .card__img{
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-  }
-  
-  .card__img img{
-      width: 100%;
-  }
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.card__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
   
   .localtion i{
       font-size: 14px;
@@ -80,7 +83,6 @@
   @media screen and (max-width: 768px) {
     .blog__card{
         padding: 25px;
-        height: 450px;
     }
     .card__bottom {
         display: grid;
@@ -88,8 +90,8 @@
         grid-gap: 20px;
         padding-top: 20px;
       }
-      .card__img img{
-        width:50%;
-      }
+   .card__img{
+    display: none;
+   }
 }
     
