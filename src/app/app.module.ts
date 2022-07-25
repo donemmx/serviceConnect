@@ -30,7 +30,8 @@ import { SearchCardComponent } from './search-card/search-card.component';
 import { AdCardComponent } from './ad-card/ad-card.component';
 import { JobCardComponent } from './job-card/job-card.component';
 import { BlogCardComponent } from './blog-card/blog-card.component';
-import { RegisterCardComponent } from './register-card/register-card.component'
+import { RegisterCardComponent } from './register-card/register-card.component';
+import { BlogDetailComponent } from './pages/blog-detail/blog-detail.component'
 
 @NgModule({
   declarations: [
@@ -61,7 +62,8 @@ import { RegisterCardComponent } from './register-card/register-card.component'
     AdCardComponent,
     JobCardComponent,
     BlogCardComponent,
-    RegisterCardComponent
+    RegisterCardComponent,
+    BlogDetailComponent
   ],
   imports: [
     BrowserModule,

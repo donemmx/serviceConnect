@@ -16,11 +16,13 @@ import { PostJobComponent } from './pages/post-job/post-job.component';
 import { LandingComponent } from './pages/landing/landing.component';
 import { SearchComponent } from './pages/search/search.component';
 import { AdsComponent } from './pages/ads/ads.component';
+import { BlogDetailComponent } from './pages/blog-detail/blog-detail.component';
 
 const routes: Routes = [
 {path: 'home', component: HomeComponent},
 {path: 'about', component: AboutComponent},
 {path: 'blog', component: BlogComponent},
+{path: 'blog-detail', component: BlogDetailComponent},
 {path: 'ad-detail', component: AdDetailComponent},
 {path: 'dashboard', component: DashboardComponent},
 {path: 'job', component: JobComponent},
